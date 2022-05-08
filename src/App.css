@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+.container {
+  padding: 2rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.info {
+  margin-bottom: 2rem;
+  background-color: #D3D4FF;
+  padding: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.info-text {
+  color: #000149;
+  font-size: 1.6rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.title {
+  color: #00001D;
+  font-size: 3.2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.sub-title {
+  color: #00001D;
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.form {
+  background-color: #FFFFE9;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 4rem;
+  margin-bottom: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.form__info {
+  margin-bottom: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form__label {
+  margin-right: 1rem;
+  color: #000149;
+}
+
+.form__input {
+  border: solid .1rem #00001D;
+  padding: .2rem;
+}
+
+.form__btn {
+  width: 20rem;
+  padding: 1rem .2rem;
+  font-weight: bold;
+}
+
+.message {
+  margin-bottom: 2rem;
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #CC0009;
+  font-weight: bold;
+  font-size: 1.8rem;
 }
